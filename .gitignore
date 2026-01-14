@@ -1,0 +1,44 @@
+# Create .gitignore to ignore large files
+@'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Data files (except the Excel file)
+*.csv
+*.pkl
+*.pickle
+*.pdf
+*.jpg
+*.png
+
+# Large files
+*_transactions.csv
+*.log
+
+# Secrets
+secrets.toml
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+temp/
+tmp/
+'@ | Out-File -FilePath .gitignore -Encoding UTF8
+
+Write-Host "✅ Created .gitignore" -ForegroundColor Green
