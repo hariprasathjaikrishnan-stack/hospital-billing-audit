@@ -34,7 +34,7 @@ MARVEL_AI_URL = (
 )
 
 # STATIC RATE CARD PATH
-STATIC_RATE_CARD_PATH = r"Data\MRD\CGHS corporate rate.xlsx"
+STATIC_RATE_CARD_PATH = r"data_mrd\CGHS corporate rate.xlsx"
 
 # ----------------------------
 # Doctor alias dictionary
